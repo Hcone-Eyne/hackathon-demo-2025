@@ -67,6 +67,13 @@ This project is built with:
 - Vite
 - TypeScript
 - React
-- shadcn-ui
-- Tailwind CSS
-  
+
+
+**Important:** Create a `.env` file in the root directory with your API keys and secrets.  
+See `.env.example` (if available) for the required variables.
+
+- Don't Forget To Add Your .env File For Full Experience 
+- Thank You
++ --- 
++ Enjoy exploring the DBT Prototype!  
+
