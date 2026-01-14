@@ -62,18 +62,23 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with:
+## Built With
 
-- Vite
-- TypeScript
-- React
+- **Vite** – Frontend build tool  
+- **React** – UI library  
+- **TypeScript** – Main programming language  
+- **JavaScript** – Legacy/utility scripts  
+- **PLpgSQL** – Database functions in Supabase
+
 
 
 **Important:** Create a `.env` file in the root directory with your API keys and secrets.  
 See `.env.example` (if available) for the required variables.
 
-- Don't Forget To Add Your .env File For Full Experience 
-- Thank You
-+ --- 
-+ Enjoy exploring the DBT Prototype!  
+
+Don't Forget To Add Your .env File For Full Experience 
+
+Thank You
+--- 
+Enjoy exploring the DBT Prototype! 🎉
 
