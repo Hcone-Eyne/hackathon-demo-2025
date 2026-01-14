@@ -1,0 +1,4 @@
+project_id = "bsmtjdjssclxibtiqxwg"
+
+[functions.dbt-chat]
+verify_jwt = true
