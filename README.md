@@ -7,27 +7,30 @@ To bridge the digital divide by engineering a "3-in-1" mobile solution that empo
 
 ### Features
 
-- **Educational Content**: Educational Content: * Interactive Framework: Engineered a progressive learning system that breaks down complex Aadhaar and DBT systems into "micro-lessons" to reduce cognitive load for first-time users.
-Visual Guidance: Integrated high-contrast visual aids and transitions to clarify the distinction between Aadhaar-linked and Aadhaar-seeded bank accounts.
-- **AI Assistant**:
-Natural Language Processing (NLP): Utilizes a state-of-the-art Large Language Model (LLM) to translate complex banking and government jargon into simple, actionable steps.
+- **Educational Content**:
+  - **Interactive Framework:** Engineered a progressive learning system that breaks down complex Aadhaar and DBT systems into "micro-lessons" to reduce cognitive load for first-time users.
+  - **Visual Guidance:** Integrated high-contrast visual aids and transitions to clarify the distinction between Aadhaar-linked and Aadhaar-seeded bank accounts.
+- **AI Assistant Implementation**
+  - **Natural Language Processing (NLP):** Utilizes a state-of-the-art Large Language Model (LLM) to translate complex banking and government jargon into simple, actionable steps for non-technical users.
+  - **Prompt Engineering:** Developed custom system prompts to ensure the AI acts as a "Digital Concierge," proactively predicting user friction points during the Aadhaar-seeding process.
+  - **Model-Agnostic Design:** The architecture is built to be modular, allowing for the seamless integration of various high-performance AI models to ensure long-term scalability and future-proofing.
 
-Prompt Engineering: Developed custom system prompts to ensure the AI acts as a "Digital Concierge," predicting user friction points during the Aadhaar-seeding process.
-
-Model-Agnostic Design: The architecture is built to be modular, allowing for the integration of various high-performance AI models to ensure scalability and future-proofing.
-
-- **DBT Checker**: Mock Verification Engine: Developed robust simulation logic that mimics real-world API responses for status checks, providing immediate, risk-free feedback for educational purposes.
-Edge Case Troubleshooting: Programmed the checker to demonstrate common failure points—such as mismatched names—to teach users how to resolve actual portal errors.
-- **User Authentication**: Secure Identity Management: Integrated Supabase Auth with strict Row-Level Security (RLS) policies, ensuring 100% data privacy and integrity in a multi-user environment.
-- **Offline Support**: PWA Resilience: Leveraged Service Workers and the Cache API to ensure educational modules and AI logic remain functional in low-connectivity or rural areas.
-- **Push Notifications**: Intelligent Engagement: Built a notification layer using background sync to deliver critical scholarship deadlines and status updates the moment a device regains internet access.
+- **DBT Checker**: 
+  - **Mock Verification Engine:** Developed robust simulation logic that mimics real-world API responses for status checks, providing immediate, risk-free feedback for educational purposes.
+  - **Edge Case Troubleshooting:** Programmed the checker to demonstrate common failure points—such as mismatched names—to teach users how to resolve actual portal errors.
+- **User Authentication**: 
+  - *Secure Identity Management:** Integrated Supabase Auth with strict Row-Level Security (RLS) policies, ensuring 100% data privacy and integrity in a multi-user environment.
+- **Offline Support**:
+  - **PWA Resilience:** Leveraged Service Workers and the Cache API to ensure educational modules and AI logic remain functional in low-connectivity or rural areas.
+- **Push Notifications**:
+  - **Intelligent Engagement:** Built a notification layer using background sync to deliver critical scholarship deadlines and status updates the moment a device regains internet access.
 
 ### Tech Stack
 
--Frontend: React 18+, TypeScript, Tailwind CSS, Vite
--State Management: TanStack Query (for optimized data fetching)
--Backend: Supabase (PostgreSQL, PLpgSQL functions)
--Animation: Framer Motion & Lottie React
+- Frontend: React 18+, TypeScript, Tailwind CSS, Vite
+- State Management: TanStack Query (for optimized data fetching)
+- Backend: Supabase (PostgreSQL, PLpgSQL functions)
+- Animation: Framer Motion & Lottie React
 
 ### Security
 
@@ -80,7 +83,11 @@ npm run dev
 - **JavaScript** – Legacy/utility scripts  
 - **PLpgSQL** – Database functions in Supabase
 
-**Solo Developer Note:** This entire project—from architecture and database design to UI/UX and AI prompt engineering—was developed and deployed by me over an intensive 30-day development cycle.
+**Developer Note:** 
+- Status: Functional Prototype This project was architected, designed, and deployed solo during an intensive 30-day development cycle.
+- Current State: This is a proof-of-concept prototype. While the core features are functional, some edge-case bugs may be present.
+- Open for Growth: This repository is shared as a foundation for future enhancements. I welcome community feedback and look forward to seeing how others build upon this vision for better digital accessibility.
+- Security Disclaimer: All identified major security vulnerabilities have been addressed and fixed. However, as a prototype, some minor vulnerabilities or edge-case instabilities may still exist.
 
 
 **Important:** Create a `.env` file in the root directory with your API keys and secrets.  
