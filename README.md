@@ -9,7 +9,8 @@ To bridge the digital divide by engineering a "3-in-1" mobile solution that empo
 
 - **Educational Content**: Educational Content: * Interactive Framework: Engineered a progressive learning system that breaks down complex Aadhaar and DBT systems into "micro-lessons" to reduce cognitive load for first-time users.
 Visual Guidance: Integrated high-contrast visual aids and transitions to clarify the distinction between Aadhaar-linked and Aadhaar-seeded bank accounts.
-- **AI Assistant**: Natural Language Processing (NLP): Utilizes a state-of-the-art Large Language Model (LLM) to translate complex banking and government jargon into simple, actionable steps.
+- **AI Assistant**: 
+Natural Language Processing (NLP): Utilizes a state-of-the-art Large Language Model (LLM) to translate complex banking and government jargon into simple, actionable steps.
 Prompt Engineering: Developed custom system prompts to ensure the AI acts as a "Digital Concierge," predicting user friction points during the Aadhaar-seeding process.
 Model-Agnostic Design: The architecture is built to be modular, allowing for the integration of various high-performance AI models to ensure scalability and future-proofing.
 - **DBT Checker**: Mock Verification Engine: Developed robust simulation logic that mimics real-world API responses for status checks, providing immediate, risk-free feedback for educational purposes.
